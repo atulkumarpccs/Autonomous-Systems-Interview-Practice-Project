@@ -34,3 +34,7 @@ Pick three of these questions, including at least one marked [Code].
 If you put these on your resume, make sure you know your code and the topic in-depth before the interview!
 
 Self-Driving Car Engineer - Finding Lane Lines, Advanced Lane Finding, Vehicle Detection and Tracking, Extended Kalman Filters, Unscented Kalman Filters, along with perception-based deep learning projects
+
+## Acceptence Criteria
+
+https://review.udacity.com/#!/rubrics/2285/view
