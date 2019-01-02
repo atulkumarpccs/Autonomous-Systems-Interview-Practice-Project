@@ -6,7 +6,7 @@ This project is choose as the latest project with my current employer for the sa
 
 Strict timeline, first developement in sydney centre ,No document, Large code base need to update/extend adapt as especification.
 
-Add document from code base by doxygen, resloving issue day by day with help of simulator for diffrent event, message.
+Add document from code base by doxygen, resloving issue day by day with help of simulator for diffrent event, message by adding c++ code for the protocol.
 
 
 
