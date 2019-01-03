@@ -23,9 +23,8 @@ So how do you test this thing? Well, it’s just like LiDAR, but since the RADAR
 
 please see the image below to ensure appropriate and accurate perception of the environment.
 
-add figure here
 
-Figure 1: McKinsey&Company Evaluation of Autonomous Vehicle Sensors
+[!Figure 1: McKinsey&Company Evaluation of Autonomous Vehicle Sensors] (https://github.com/atulkumarpccs/Autonomous-Systems-Interview-Practice-Project/blob/master/Images/Gaussian_Approximation_around_the_Mean_and_other_sigma_points.PNG)
 
 
 #### Question 3 :Describe the overall process of how a basic Kalman Filter works. Where might a basic Kalman Filter be less than sufficient? How can you improve the basic algorithm to improve performance in such a situation?
