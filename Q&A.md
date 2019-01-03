@@ -64,7 +64,7 @@ In addition to sigma points, these points also have weights, so these are weight
 ## Coding
 
 #### Question 6 :[Code] Explain the steps behind how an Extended Kalman Filter is implemented.
-Answer : Added the extended kalman filetr impelementation and the commnet are self explaratory.
+Answer : Added the extended kalman filter impelementation and the commnet are self explaratory.
 
 
 
