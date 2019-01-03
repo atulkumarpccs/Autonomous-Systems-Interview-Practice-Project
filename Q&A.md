@@ -48,6 +48,7 @@ Extended kalman filter uses liner approximation approach as against the regular 
 
 
 Question 5 :What is the difference between an Extended Kalman Filter and an Unscented Kalman Filter? In what situations would there be larger differences between the two approaches?
+Here the main difference from EKF is that in EKF we take only one point i.e. mean and approximate, but in UKF we take a bunch of points called sigma points and approximate with a fact that more the number of points, more precise our approximation will be!
 
 ## Coding
 Question 6 :[Code] Explain the steps behind how an Extended Kalman Filter is implemented.
