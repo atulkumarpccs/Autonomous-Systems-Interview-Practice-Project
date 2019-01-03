@@ -50,7 +50,8 @@ Error In Prediction is calculated mathematically. We initially start with a wron
  [!link] <https://www.youtube.com/watch?v=Fuy73n6_bBc>
 
 <img src="Images/Kalman filter - Wikipedia 2019-01-03 14-03-23.png"/>
-         Figure 3: WikiIamge of kalman filter
+                  Figure 3: WikiIamge of kalman filter
+                  
 
 Basic kalman filter is less than sufficent if we have non liner measurement function from Gaussion[predicted state] to not a Gaussion result and kalman filter equation can not be used any more. 
 
