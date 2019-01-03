@@ -69,7 +69,7 @@ Answer :Here the main difference from EKF is that in EKF we take only one point 
 
 In addition to sigma points, these points also have weights, so these are weighted sigma points.we are giving more or less preference to some points to make our approximation better.
 
-<img src="Images/Kalman filter - Wikipedia 2019-01-03 14-03-23.png"/>
+<img src="Images/Gaussian_Approximation_around_the_Mean_and_other_sigma_points.PNG"/>
 
 ## Coding
 
