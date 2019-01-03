@@ -38,7 +38,9 @@ Error In Prediction is calculated mathematically. We initially start with a wron
 
 put the image here link<https://www.youtube.com/watch?v=Fuy73n6_bBc>
 
+Basic kalman filter is less than sufficent if we have non liner measurement function.
 
+we have to use extended kalman filter by using first order of taylor expansion to construct a linear approximation.
 
 Question 4 :How does an Extended Kalman Filter differ from a regular Kalman Filter? Provide an example of where an EKF would be necessary or an improvement, and detail why it would be needed in that situation.
 
