@@ -33,7 +33,7 @@ please see the image below to ensure appropriate and accurate perception of the 
 
 Answers :Kalman Filters, also known as linear quadratic estimation (LQE), is an algorithm that helps us to obtain more reliable estimates from sequence of observed measurements(sensor measurements).
 
-<img src="Building an Autonomous Vehicle Part 4.1: Sensor Fusion and Object Tracking using Kalman Filters 2019-01-03 14-06-32.png"/>
+<img src = "Building an Autonomous Vehicle Part 4.1: Sensor Fusion and Object Tracking using Kalman Filters 2019-01-03 14-06-32.png"/>
 
 It can be used to track the position and velocity of a moving pedestrian over time and also measure the uncertainty associated with them. It is basically a two-step iterative process.
 Predict 🤔
