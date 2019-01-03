@@ -23,8 +23,10 @@ So how do you test this thing? Well, it’s just like LiDAR, but since the RADAR
 
 please see the image below to ensure appropriate and accurate perception of the environment.
 
-<img src="Images/Gaussian_Approximation_around_the_Mean_and_other_sigma_points.PNG"/>
+<img src="Images/How to ensure the safety of Self-Driving Cars: Part 2:5 2019-01-03 11-45-51.png"/>
          Figure 1: McKinsey&Company Evaluation of Autonomous Vehicle Sensors
+         
+<img src="Images/How to ensure the safety of Self-Driving Cars: Part 2:5 2019-01-03 11-50-45.png"/>         
 
 
 #### Question 3 :Describe the overall process of how a basic Kalman Filter works. Where might a basic Kalman Filter be less than sufficient? How can you improve the basic algorithm to improve performance in such a situation?
@@ -43,7 +45,7 @@ Error In Measurement is generally given by the sensor manufacturers. When we buy
 
 Error In Prediction is calculated mathematically. We initially start with a wrong belief(large error) and then reduces the error gradually(using Kalman Gain) after taking the first few measurements from the sensor.
 
-put the image here link<https://www.youtube.com/watch?v=Fuy73n6_bBc>
+ [!link] <https://www.youtube.com/watch?v=Fuy73n6_bBc>
 
 <img src="Images/Gaussian_Approximation_around_the_Mean_and_other_sigma_points.PNG"/>
          Figure 1: McKinsey&Company Evaluation of Autonomous Vehicle Sensors
