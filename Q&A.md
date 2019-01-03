@@ -1,5 +1,5 @@
 ## General 
-Question1 :Explain a recent project you've worked on. Why did you choose this project? 
+#### Question1 :Explain a recent project you've worked on. Why did you choose this project? 
 What difficulties did you run into this project that you did not expect, and how did you solve them?
 
 Answer: I have workded on game to system project expension working with Aristocrate for NSW extesion/adaption.
@@ -10,7 +10,7 @@ Strict timeline, first developement in sydney centre ,No document, Large code ba
 Add document from code base by doxygen, resloving issue day by day with help of simulator for diffrent event, message by adding c++ code for the protocol.
 
 ## Mandatory 
-Question 2 :What are some of the advantages & disadvantages of cameras, lidar and radar? What combination of these (and other sensors) would you use to ensure appropriate and accurate perception of the environment?
+#### Question 2 :What are some of the advantages & disadvantages of cameras, lidar and radar? What combination of these (and other sensors) would you use to ensure appropriate and accurate perception of the environment?
 
 Answers : Cameras, lidar and radar are the eyes of self driving car , 
 ```Camera``` : A camera is fundamentally a sensor that grabs a bunch of color points in space and arranges them into an image, often referred to as an image array. This image array is converted into a digital signal and is passed along to the hardware that does sensor fusion and scene understanding.
@@ -27,7 +27,7 @@ add figure here
 Figure 1: McKinsey&Company Evaluation of Autonomous Vehicle Sensors
 
 
-Question 3 :Describe the overall process of how a basic Kalman Filter works. Where might a basic Kalman Filter be less than sufficient? How can you improve the basic algorithm to improve performance in such a situation?
+#### Question 3 :Describe the overall process of how a basic Kalman Filter works. Where might a basic Kalman Filter be less than sufficient? How can you improve the basic algorithm to improve performance in such a situation?
 
 Answers :Kalman Filters, also known as linear quadratic estimation (LQE), is an algorithm that helps us to obtain more reliable estimates from sequence of observed measurements(sensor measurements).
 
@@ -49,13 +49,13 @@ Basic kalman filter is less than sufficent if we have non liner measurement func
 
 We have to use extended kalman filter by using first order of taylor expansion to construct a linear approximation.
 
-Question 4 :How does an Extended Kalman Filter differ from a regular Kalman Filter? Provide an example of where an EKF would be necessary or an improvement, and detail why it would be needed in that situation.
+#### Question 4 :How does an Extended Kalman Filter differ from a regular Kalman Filter? Provide an example of where an EKF would be necessary or an improvement, and detail why it would be needed in that situation.
 
 Answer :Extended kalman filter uses liner approximation approach as against the regular kalman filter. Extended kalman filter used when result is not Gaussian and kalman filter equation can not be used through Taylor series expansion.
 
 ## Bonus 
 
-Question 5 :What is the difference between an Extended Kalman Filter and an Unscented Kalman Filter? In what situations would there be larger differences between the two approaches?
+#### Question 5 :What is the difference between an Extended Kalman Filter and an Unscented Kalman Filter? In what situations would there be larger differences between the two approaches?
 
 Answer :Here the main difference from EKF is that in EKF we take only one point i.e. mean and approximate, but in UKF we take a bunch of points called sigma points and approximate with a fact that more the number of points, more precise our approximation will be!
 
@@ -63,7 +63,7 @@ In addition to sigma points, these points also have weights, so these are weight
 
 ## Coding
 
-Question 6 :[Code] Explain the steps behind how an Extended Kalman Filter is implemented.
+#### Question 6 :[Code] Explain the steps behind how an Extended Kalman Filter is implemented.
 Answer : Added the extended kalman filetr impelementation and the commnet are self explaratory.
 
 
