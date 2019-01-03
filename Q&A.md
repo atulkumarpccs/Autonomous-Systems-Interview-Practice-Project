@@ -25,6 +25,21 @@ Figure 1: McKinsey&Company Evaluation of Autonomous Vehicle Sensors
 ---------------------------------------------------------------------------------------------------------------------------
 Question 3 :Describe the overall process of how a basic Kalman Filter works. Where might a basic Kalman Filter be less than sufficient? How can you improve the basic algorithm to improve performance in such a situation?
 
+Answers :Kalman Filters, also known as linear quadratic estimation (LQE), is an algorithm that helps us to obtain more reliable estimates from sequence of observed measurements(sensor measurements).
+
+It can be used to track the position and velocity of a moving pedestrian over time and also measure the uncertainty associated with them. It is basically a two-step iterative process.
+Predict 🤔
+Update ✍️
+
+Actually, Kalman Gain is a parameter which decides how much weight should be given to predicted value and the measured value. It checks the uncertainty in both predicted value and measured value and then it decides whether our actual value is close to predicted value or measured value.
+K = Error In Prediction / (Error in Prediction + Error in Measurement)
+Error In Measurement is generally given by the sensor manufacturers. When we buy a new sensor, the manufacturer tells us the standard deviation of the measurement that we’ll get from the sensor. It means, let say the standard deviation is 3 and actual measurement is 150, then the sensor can give us the output ranges from 147–153.
+Error In Prediction is calculated mathematically. We initially start with a wrong belief(large error) and then reduces the error gradually(using Kalman Gain) after taking the first few measurements from the sensor.
+
+put the image here link<https://www.youtube.com/watch?v=Fuy73n6_bBc>
+
+
+
 Question 4 :How does an Extended Kalman Filter differ from a regular Kalman Filter? Provide an example of where an EKF would be necessary or an improvement, and detail why it would be needed in that situation.
 
 Question 5 :What is the difference between an Extended Kalman Filter and an Unscented Kalman Filter? In what situations would there be larger differences between the two approaches?
