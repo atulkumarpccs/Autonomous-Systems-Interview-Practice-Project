@@ -38,7 +38,7 @@ Error In Prediction is calculated mathematically. We initially start with a wron
 
 put the image here link<https://www.youtube.com/watch?v=Fuy73n6_bBc>
 
-Basic kalman filter is less than sufficent if we have non liner measurement function.
+Basic kalman filter is less than sufficent if we have non liner measurement function from Gaussion to not a Gaussion result. 
 
 we have to use extended kalman filter by using first order of taylor expansion to construct a linear approximation.
 
