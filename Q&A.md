@@ -33,6 +33,8 @@ please see the image below to ensure appropriate and accurate perception of the 
 
 Answers :Kalman Filters, also known as linear quadratic estimation (LQE), is an algorithm that helps us to obtain more reliable estimates from sequence of observed measurements(sensor measurements).
 
+<img src="Building an Autonomous Vehicle Part 4.1: Sensor Fusion and Object Tracking using Kalman Filters 2019-01-03 14-06-32.png"/>
+
 It can be used to track the position and velocity of a moving pedestrian over time and also measure the uncertainty associated with them. It is basically a two-step iterative process.
 Predict 🤔
 Update ✍️
@@ -47,8 +49,8 @@ Error In Prediction is calculated mathematically. We initially start with a wron
 
  [!link] <https://www.youtube.com/watch?v=Fuy73n6_bBc>
 
-<img src="Images/Gaussian_Approximation_around_the_Mean_and_other_sigma_points.PNG"/>
-         Figure 1: McKinsey&Company Evaluation of Autonomous Vehicle Sensors
+<img src="Images/Kalman filter - Wikipedia 2019-01-03 14-03-23.png"/>
+         Figure 3: WikiIamge of kalman filter
 
 Basic kalman filter is less than sufficent if we have non liner measurement function from Gaussion[predicted state] to not a Gaussion result and kalman filter equation can not be used any more. 
 
@@ -65,6 +67,8 @@ Answer :Extended kalman filter uses liner approximation approach as against the 
 Answer :Here the main difference from EKF is that in EKF we take only one point i.e. mean and approximate, but in UKF we take a bunch of points called sigma points and approximate with a fact that more the number of points, more precise our approximation will be!
 
 In addition to sigma points, these points also have weights, so these are weighted sigma points.we are giving more or less preference to some points to make our approximation better.
+
+<img src="Images/Kalman filter - Wikipedia 2019-01-03 14-03-23.png"/>
 
 ## Coding
 
