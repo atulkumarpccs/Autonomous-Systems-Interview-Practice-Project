@@ -12,7 +12,8 @@ Add document from code base by doxygen, resloving issue day by day with help of 
 ## Mandatory 
 #### Question 2 :What are some of the advantages & disadvantages of cameras, lidar and radar? What combination of these (and other sensors) would you use to ensure appropriate and accurate perception of the environment?
 
-Answers : Cameras, lidar and radar are the eyes of self driving car , 
+Answers : Cameras, lidar and radar are the eyes of self driving car ,
+
 ```Camera``` : A camera is fundamentally a sensor that grabs a bunch of color points in space and arranges them into an image, often referred to as an image array. This image array is converted into a digital signal and is passed along to the hardware that does sensor fusion and scene understanding.
 
 ```Lidar``` : LiDAR is a laser-light point-and-shoot methodology for sensing the world. A transmitter spits out a bit of light, waits for that light to bounce off an object, and since it knows how fast light travels, can determine how far away that object is by determining the time that’s passed between sending out that light and receiving it. LiDAR units can broaden their field of view by using a bunch of lasers that spin around in a circle, or more recently, as a stationary bunch of lasers that spread out along a field of view, called “Solid State LiDAR.” After all the light is received, the LiDAR system sends an array of direction and distance information back to the hardware for sensor fusion and scene understanding, referred to as a “point cloud.
