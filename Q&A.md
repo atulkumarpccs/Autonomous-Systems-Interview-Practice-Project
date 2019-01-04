@@ -75,7 +75,11 @@ In addition to sigma points, these points also have weights, so these are weight
 ## Coding
 
 #### Question 6 :[Code] Explain the steps behind how an Extended Kalman Filter is implemented.
-Answer: Added the extended Kalman filter implementation and the comments are self-explanatory.
+Answer: Please see extended Kalman filter implementation based on the code provided.
+1.Taking data from diffrent source and cobining togther is called sensor fusion.
+2. Data is put in the form of Matrix from diffrent source i.e Lidar , Radar and initilized.
+3. The include file for the implementation for Kalman filter can be seen header file.[Gaussian Distrubution and liner function].
+4. Feeding the data into the Gaussion form non liner data recied from Radar and get liner appriximation is called Extended kalman filter with helf Of Tylor series.
 
 
 
