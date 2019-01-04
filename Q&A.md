@@ -101,9 +101,9 @@ y -> Difference between Measured Value and Actual Value
 
 This is a function that specifies the mapping between our predicted values in Cartesian coordinates and Polar coordinates. This mapping is required because we are predicting in Cartesian coordinates but our measurement (z) that is coming from the sensor is in Polar Coordinates.
 
-                <img src="Images/Kalman filter - Wikipedia 2019-01-03 14-03-23.png"/>
+<img src="Images/Mapping_between_cartesian_and_polar_co-ordinates.PNG"/>
                 
-                Figure. Mapping between Cartesian and Polar coordinates (Source)
+                Figure. Mapping between Cartesian and Polar coordinates (source udacity )
 Equation 2:
 
 ```S= HⱼP′Hⱼᵀ + R```
@@ -126,13 +126,13 @@ X_l = {px,py,vx,vy}
 
 Since in case of RADAR we have 4 measurements, 2 for distance and 2 for velocity.
 
-               <img src="Images/Kalman filter - Wikipedia 2019-01-03 14-03-23.png"/>
+<img src="Images/Jacobian_Matrix.PNG"/>
                
-               Figure . Jacobian matrix (Source)
+               Figure . Jacobian matrix (source udacity )
                
-               <img src="Images/Kalman filter - Wikipedia 2019-01-03 14-03-23.png"/>
+<img src="Images/Jacobian_Matrix_after_applying_derivatives.PNG"/>
                
-               Figure 10. Jacobian Matrix after applying derivatives
+               Figure. Jacobian Matrix after applying derivatives (source udacity )
 Equation 3:
 ```x = x′ + K.y```
 ```P = (I- KHⱼ)P′``
@@ -143,5 +143,7 @@ Prediction
 update
 Note: no need to go in deep , please have a look of code base.
 
-Programming Technique
+### Programming Technique
+All varibales are intilzed and givel defult value
+Data tyes are put to consider data in mind fullfilling no overflow.
 
