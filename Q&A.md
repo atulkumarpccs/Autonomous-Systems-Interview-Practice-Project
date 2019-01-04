@@ -77,22 +77,21 @@ In addition to sigma points, these points also have weights, so these are weight
 #### Question 6 :[Code] Explain the steps behind how an Extended Kalman Filter is implemented.
 Answer: Please see extended Kalman filter implementation based on the code provided.
 
-Taking data from diffrent source and cobining togther is called sensor fusion.
+Taking data from a different source and combining together is called sensor fusion.
 
-Data is put in the form of Matrix from diffrent source i.e Lidar , Radar and initilized.
+Data is put in the form of Matrix from different source i.e Lidar , Radar and initialized.
 
 The include file for the implementation for Kalman filter can be seen header file.[Gaussian Distrubution and liner function].
 
-Feeding the data into the Gaussion form non liner data recied from Radar and get liner appriximation is called Extended kalman filter with helf Of Tylor series.
+Feeding the data into the Gaussian form non-linear data received from Radar and get liner approximation is called Extended Kalman filter with helf Of Tylor series.
 
 ### Prediction Step 
 
-```x′ = F.x + B.μ + ν```
-```P′ = FPFᵀ + Q```
+```x′ = F.x + B.μ + νP′ = FPFᵀ + Q```
 
 The prediction step is exactly the same as that of Kalman Filter. It does not matters whether the data is coming from LIDAR or RADAR the prediction step is exactly the same.
 
-### Update Step (Only in case of EKF i.e. Non Linear Measurements coming from RADAR)
+### Update Step (Only in case of EKF i.e. Non-Linear Measurements coming from RADAR)
 Equation 1:
 
 ```y= z - h(x′)```
@@ -145,13 +144,20 @@ Equation 3:
 
 All can be seen in the form of three steps
 
-#### Initilization/condition check
+#### Initialization/condition check
 #### Prediction
 #### Update
-Note: no need to go in deep , please have a look of code base.
+Note: no need to go in deep, please have a look of the code base.
 
 ### Programming Technique
 
-All varibales are initialzed and given defult value
-Data types are chossen with right data set.
+All variables are initialized and given default value.
 
+Data types are chosen with a right data set.
+
+
+
+
+
+
+ 
