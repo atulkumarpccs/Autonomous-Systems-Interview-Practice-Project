@@ -59,7 +59,7 @@ We have to use extended Kalman filter by using first order of Taylor expansion t
 
 #### Question 4: How does an Extended Kalman Filter differ from a regular Kalman Filter? Provide an example of where an EKF would be necessary or improvement, and detail why it would be needed in that situation.
 
-Answer: Extended Kalman filter uses linear approximation approach as against the regular Kalman filter. Extended Kalman filter used when the result is not Gaussian and Kalman filter equation cannot be used through Taylor series expansion.
+Answer: Extended Kalman filter uses linear approximation approach as against the regular Kalman filter. Extended Kalman filter used when the result is not Gaussian  like radar and Kalman filter equation cannot be used through Taylor series expansion.
 
 ## Bonus 
 
