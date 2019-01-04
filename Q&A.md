@@ -80,7 +80,54 @@ Answer: Please see extended Kalman filter implementation based on the code provi
 2. Data is put in the form of Matrix from diffrent source i.e Lidar , Radar and initilized.
 3. The include file for the implementation for Kalman filter can be seen header file.[Gaussian Distrubution and liner function].
 4. Feeding the data into the Gaussion form non liner data recied from Radar and get liner appriximation is called Extended kalman filter with helf Of Tylor series.
+5. Prediction Step same 
+x′ = F.x + B.μ + ν
+P′ = FPFᵀ + Q
+The prediction step is exactly the same as that of Kalman Filter. It does not matters whether the data is coming from LIDAR or RADAR the prediction step is exactly the same.
 
+Update Step (Only in case of EKF i.e. Non Linear Measurements coming from RADAR)
+Equation 1:
+y= z - h(x′)
+z -> actual measurement in polar coordinates
+h -> function that specifies how our speed and position are mapped to polar coordinates
+x′ -> Predicted Value
+y -> Difference between Measured Value and Actual Value
+h(x′)
+This is a function that specifies the mapping between our predicted values in Cartesian coordinates and Polar coordinates. This mapping is required because we are predicting in Cartesian coordinates but our measurement (z) that is coming from the sensor is in Polar Coordinates.
+
+
+Figure 8. Mapping between Cartesian and Polar coordinates (Source)
+Equation 2:
+S= HⱼP′Hⱼᵀ + R
+K= P′HⱼᵀS⁻¹
+R -> Measurement Noise
+K -> Kalman Gain
+S-> Total Error
+S⁻¹ -> The inverse of S
+Hⱼ -> The Jacobian Matrix
+Hⱼ
+Hⱼ is the Jacobian Matrix. The Jacobian matrix is the first order derivative that we just discussed in Taylor Series. Since here we are dealing with matrices, we need to find differential in the form of a matrix.
+
+J_kl = d F_k / dX_l
+J_kl is the k,l element of the Jacobian matrix, F_k is the kth element of the vector function F, and X_l is the lth element of the vector variable X.
+Here F_k = { ρ, Φ , ρ_dot}
+X_l = {px,py,vx,vy}
+
+Since in case of RADAR we have 4 measurements, 2 for distance and 2 for velocity.
+
+
+Figure 9. Jacobian matrix (Source)
+
+Figure 10. Jacobian Matrix after applying derivatives
+Equation 3:
+x = x′ + K.y
+P = (I- KHⱼ)P′
+
+
+all can be seen in the form of three steps i.e Initiozation/conditiob check
+Prediction
+update
+Note: no need to go in deep , please have a look of code base.
 
 
 
